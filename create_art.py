@@ -55,6 +55,7 @@ def make_gray(seed, num_pics=1, width=300):
         gray_exp = create_expression()
         print("{}: {}".format(filename, gray_exp))
         image = generate_monochrome_image(gray_exp, width)
+        image.show(filename, "PNG")
         image.save(filename, "PNG")
 
 
@@ -71,6 +72,7 @@ def make_color(seed, num_pics=1, width=300):
                                                                green_exp,
                                                                blue_exp))
         image = generate_rgb_image(red_exp, green_exp, blue_exp, width)
+        image.show(filename, "PNG")
         image.save(filename, "PNG")
 
 
