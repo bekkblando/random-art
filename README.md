@@ -1,3 +1,4 @@
+Got a bit more practice with lamdas, I enjoyed this project.
 # Random Art
 
 ## Description
